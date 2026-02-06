@@ -1,0 +1,10 @@
+            .sectionWrapper2{
+                color: black;
+                border: 8px;
+                border-style: groove;
+                border-color: aquamarine;
+                background-color: aqua;
+            }
+            .sectionWrapper2 h1{
+                color: darkblue;
+            }
