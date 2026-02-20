@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script src="https://cdn.tailwindcss.com">
+        </script>
+    </head>
+    <body class="p-4">
+<section>
+    <h2>
+        Basic Flex
+    </h2>
+    <div class ="flex flex-col md:flex-row justify-between gap-5">
+        <div class ="bg-red-500 flex-1">123</div>
+        <div class ="bg-blue-500 w-24">456</div>
+        <div class ="bg-green-500 flex-1">789</div>
+    </div>
+</section>
+
+<section>
+    <h2>Reverse</h2>
+    <div class="flex felx-col md:flex-row-reverse justify-between gap-5">
+        <div class ="bg-red-500 md:flex-none md:w-24">123</div>
+        <div class ="bg-blue-500 w-24">456</div>
+        <div class ="bg-green-500 flex-1">789</div>
+    </div>
+</section>
+
+<section class="flexflex-row bg-neutral-200 h-1/2 w-full justify-start items-end 
+bg-[url('https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg')] 
+bg-cover bg-no-repeat rounded-xl pt-6 pb-6"> 
+
+<div class="bg-gray-600 flex-1 p-2 bg-opacity-40 text-lg text-gray-300 font-semibold">You are here</div>
+
+</section>
+
+<section class="flex flex-col sm:flex-row w-lg gap-4 mx-auto">
+    <div>Nav</div>
+    <div>2</div>
+    <div>Banner</div>
+</section>
+    </body>
+</html>
