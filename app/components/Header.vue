@@ -1,6 +1,6 @@
 <template>
     <div>
-         <Nav />
+         <!-- <Nav /> -->
          <hr/>
         <PageTitle :pageTitle="pageTitle" />
     </div>

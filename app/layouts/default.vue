@@ -8,7 +8,7 @@
         <!-- Footer -->
         <UFooter>
             <template #left>
-                      <p class="text-muted text-sm">Copyright Cawno © {{ new Date().getFullYear() }}</p>
+                      <p class="text-muted text-sm">Copyright Conner Blair © {{ new Date().getFullYear() }}</p>
             </template>
                 <UButton 
                     icon="i-simple-icons-github"

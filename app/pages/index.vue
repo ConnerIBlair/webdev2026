@@ -1,10 +1,23 @@
 <template>
     <div>
           <UPageHero
-    title="Ultimate Vue UI library"
-    description="A Nuxt/Vue-integrated UI library providing a rich set of fully-styled, accessible and highly customizable components for building modern web applications."
-    :links="links"
+    title="Conner Blair's Website"
+    description="Projects get done"
   />
+
+    <UPageSection title="The Clickers">
+                  <UPageHero
+    :links="links"/>
+    </UPageSection>
+
+
+    <UPageCTA
+  title="About Me"
+>
+<UPageHero
+    :links="link"/>
+</UPageCTA>
+
     </div>
 </template>
 
@@ -19,4 +32,9 @@ const links = [
         to:"/contact"
     }
 ]
+const link = [
+        {
+        label: "About Me", 
+        to:"/about"
+    }]
 </script>
